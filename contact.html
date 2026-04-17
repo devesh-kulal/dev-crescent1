@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us - CrescentOne</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="container">
+      <div class="nav-inner">
+        <div class="logo">
+          <img src="https://www.crescentone.com/wp-content/uploads/2022/01/crescent-logo.png" alt="CrescentOne Logo">
+        </div>
+
+        <nav class="nav-links" id="navLinks">
+          <a href="index.html">GLOVIA G2</a>
+          <a href="#">Resources</a>
+          <a href="#">Industries</a>
+          <a href="#">Company</a>
+        </nav>
+
+        <div class="nav-right">
+          <button class="contact-btn">Contact</button>
+          <a href="#" class="login">CUSTOMER LOGIN <i class="fas fa-key"></i></a>
+        </div>
+
+        <button class="mobile-menu" id="mobileMenuBtn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Contact Banner -->
+  <section class="contact-banner block bg-cover" 
+           style="background-image: url('https://www.crescentone.com/wp-content/uploads/2020/02/contact-banner.png');">
+    <div class="container">
+      <div class="inner">
+        <div class="text-block">
+          <div class="page-name">Contact</div>
+          <h1>Take the Next Step to Success</h1>
+          <p>Your company is important to us! If you have questions or need more information, we’re happy to help! Just fill out this form or call us at one of the phone numbers listed below. We look forward to hearing from you!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Content -->
+  <section class="contact-content block">
+    <div class="container">
+      <div class="contact-wrapper">
+
+        <!-- Contact Form -->
+        <div class="contact-form">
+          <h2>Send us a Message</h2>
+          <form action="#" method="POST">
+            <div class="form-row">
+              <input type="text" placeholder="First Name" required>
+              <input type="text" placeholder="Last Name" required>
+            </div>
+            <input type="email" placeholder="Business Email" required>
+            <input type="tel" placeholder="Phone Number">
+            <input type="text" placeholder="Company Name">
+            
+            <textarea rows="6" placeholder="How can we help you?"></textarea>
+
+            <button type="submit" class="submit-btn">Submit Message</button>
+          </form>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="contact-info">
+          <h2>Get in Touch</h2>
+          
+          <div class="info-item">
+            <i class="fas fa-phone"></i>
+            <div>
+              <strong>Phone</strong>
+              <p>+1 (310) 563-7000</p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <strong>Email</strong>
+              <p>info@crescentone.com</p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <strong>Address</strong>
+              <p>3011 South Daimler Street<br>El Segundo, CA 90245, USA</p>
+            </div>
+          </div>
+
+          <div class="info-item">
+            <i class="fas fa-clock"></i>
+            <div>
+              <strong>Business Hours</strong>
+              <p>Monday - Friday: 8:00 AM - 5:00 PM PST</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-menu">
+          <a href="index.html">GLOVIA G2</a>
+          <a href="#">Resources</a>
+          <a href="#">Industries</a>
+          <a href="#">Company</a>
+        </div>
+        <div class="social">
+          <a href="https://www.linkedin.com/company/fujitsu-glovia-inc/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+
+      <div class="about-section">
+        <h3>About CrescentOne</h3>
+        <p>CrescentOne is a leading innovator in manufacturing ERP software and solutions, helping manufacturers, assembly businesses and mixed-mode companies worldwide optimize, manage and grow their operations.</p>
+      </div>
+
+      <div class="copyright">
+        © 2026 CrescentOne &nbsp;|&nbsp; 
+        <a href="#">Privacy</a> &nbsp;|&nbsp; 
+        <a href="#">Terms of Use</a> &nbsp;|&nbsp; 
+        <a href="#">California Privacy Addendum</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Simple Mobile Menu Toggle
+    const mobileBtn = document.getElementById('mobileMenuBtn');
+    const navLinks = document.getElementById('navLinks');
+
+    mobileBtn.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  </script>
+
+    <!--Start of Tawk.to Script-->
+    <!-- This is the ChatBot for CrescentOne-AI -->
+    <script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+        s1.async=true;
+        s1.src='https://embed.tawk.to/69e0703e4386091c359173d1/1jmabct6g';
+        s1.charset='UTF-8';
+        s1.setAttribute('crossorigin','*');
+        s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
+
+</body>
+</html>
